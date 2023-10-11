@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.split-screen-container {
+  display: flex;
+}
+
+.left-side {
+  flex: 1;
+  background-color: white;
+  /* Styles supplémentaires pour la partie gauche */
+}
+
+.right-side {
+  flex: 1;
+  background-image: url(C:\Users\bakabakouka\Desktop\app_stage\logobus.jpg);
+  ;
+  /* Styles supplémentaires pour la partie droite */
+}

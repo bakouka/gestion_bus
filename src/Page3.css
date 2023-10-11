@@ -1,0 +1,35 @@
+.ticket {
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr,2fr);
+ 
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 793.7px;
+    height: 302.36px;
+    /*background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-image:url(C:\Users\bakabakouka\Desktop\app_stage\1.png) ;
+    background-position-x: 10px ;
+    background-repeat: repeat;
+    backdrop-filter: blur(100px);
+    z-index: -1;*/
+    background-image: url(C:\Users\bakabakouka\Desktop\app_stage\ticket.png);
+   background-size: cover;
+  }
+  
+  .ticket-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-content {
+    margin-bottom: 20px;
+  }
+  
+  .ticket-footer {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }

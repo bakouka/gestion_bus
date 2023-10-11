@@ -1,0 +1,34 @@
+.partie1{
+ margin-bottom: 20px;
+}
+
+.partie2{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    margin-left: 610px;
+    justify-content: center;
+    margin-top: 10px;
+  gap: 30px;
+}
+.header1{
+   color: white;
+   font-size: x-large;
+  justify-content: center;
+  margin-top: -3px;
+   margin-left: 630px;
+    
+}
+.header2{
+    font-size: x-large;
+    margin-left: 610px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.header3{
+    font-size: large;
+    margin-left: 610px;
+    justify-content: center;
+    margin-top: 10px;
+
+}
