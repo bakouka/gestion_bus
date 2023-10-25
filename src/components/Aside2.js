@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Aside2.css'; // Assurez-vous de créer un fichier CSS pour les styles
 
-const Aside2 = () => {
+const Aside2 = ({ formData2}) => {
 
   return (
     <aside>
@@ -12,18 +12,24 @@ const Aside2 = () => {
     <p className='partie10'>الخطوط الدولية</p>
    
   </div>
-  <div className='partie4'>
-<p > من</p>
+  <div>
+  {formData2 && (
+<div className='com'>
+<div className='partie4'>
+    
+<p > من: {formData2.dep}</p>
 <p>رقم الرحلة</p>
 </div>
 <div className='partie6'>
-<p>إلى</p>
-<p>اليوم</p> 
+<p>إلى: {formData2.arr}</p>
+<p>اليوم: {formData2.jour}</p> 
 </div>
+</div>
+  )}
 <p className='partie5'>جهة الحجز</p>
 </div>
 <div className='partie7'>
-    <div>
+    <div className='com2'>
 <p className='position'>حالة </p>
 <p className='position'>التذكرة</p>
 </div>
@@ -48,6 +54,7 @@ const Aside2 = () => {
 <p className='footer2'>رفاهية تتخطى الحدود</p>
 <p className='footer1'>الرجاء الإحتفاظ بالتذكرة مع إحترام موعد الإنطلاق</p>
 
+</div>
 </div>
     </aside>
   );

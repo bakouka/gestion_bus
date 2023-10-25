@@ -1,4 +1,5 @@
-.ticket {
+
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@700&display=swap');.ticket {
 
   display: grid;
   grid-template-columns: repeat(2,1fr,2fr);
@@ -32,4 +33,8 @@
     text-align: center;
     font-style: italic;
     color: #888;
+  }
+  *{
+    font-family: 'Sometype Mono', monospace;
+
   }

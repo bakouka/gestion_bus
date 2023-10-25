@@ -1,109 +1,68 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "CustomFont";
-}
-/*@font-face {
-    font-family:"CustomFont" ;
-    src: url("../fonts/RolexLight.woff2");
-   
-}*/
-.page{
-    height: 100vh;
-    width: 100%;
+/* Styles for the container */
+.split-screen-container {
     display: flex;
-    justify-content:center ;
-    align-items: center;
-}
-.cover {
-    background-color: white;
-    width: 30em;
-    height: 35em;
-    position: relative;
-    border-radius: 1em;
-    box-shadow: 0 0188em 1.550em rgb(156, 156, 156);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 200px;
-}
-.alt-login {
-    width: 80%;
-    height: 3em;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.alt-login div {
-    width:45%;
-height: 90%;
-border-radius: 0.25em;
-background-color: rgb(240, 228, 228);
-background-position: center;
-background-size: contain;
-background-repeat: no-repeat;
-cursor: pointer;
-
-}
-.input-container{
-    display: flex;
-    flex-direction: row;
+  }
   
-   
-}
-.box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  /* Styles for the left side */
+  .left-side {
+    text-align: center;
+    padding: 20px;
+  }
   
-}
-.box1{
+  .left-side img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .left-side p {
+    font-size: 24px;
+  }
+  
+  .input-container {
+    margin: 10px 0;
+  }
+  
+  .input-field {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+ 
+  
+  .checkbox {
+    margin-right: 5px;
+  }
+  
+  /* Styles for the right side */
+  .right-side {
+    text-align: center;
+  }
+  
+  .right-side img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Styles for the login button */
+  .login-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  /* Styles for the confirmer section */
+  .confirmer a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  .box1{
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
-}
-.login-btn{
-    display: flex;
-    padding-right: 20px;
-    margin-left: 200px;
-}
-@media screen and (min-width:1024px){
-    body{
-        font-size: 18px;
-    }
-}
-.bod{
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-    background-image: url(C:\Users\bakabakouka\Desktop\app_stage\logokey.png);
-    background-position-x: 270px;
-    background-position-y: 4px;
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: 5px left;
-    
-}
-.bod1{
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-    background-image: url(C:\Users\bakabakouka\Desktop\app_stage\logomail1.jpg);
-    background-size: 20px 20px;
-    background-position-x: 270px;
-    background-position-y: 5px;
-    background-repeat: no-repeat;
-    background-position: 50px left;
-    
-}
-.confirmer{
     justify-content: center;
-    align-items: center;
-}
-.ce{
-    justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-}
+  }
+  
